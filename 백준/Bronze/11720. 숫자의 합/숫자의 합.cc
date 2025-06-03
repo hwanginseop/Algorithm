@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int n;
+string str;
+int sum = 0;
+
+int main()
+{
+	cin >> n >> str;
+	for (int i = 0; i < n; i++)
+	{
+		sum += str[i] - '0';
+	}
+	cout << sum;
+	return 0;
+}
